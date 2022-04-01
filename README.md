@@ -4,9 +4,9 @@ We present the demographic hashtag recommendation DemoHash model to utilize user
 
 The below figure is the overview of DemoHash; 1) Blue box: post module represents the process of extracting post feature from images and text. 2) Orange box: demographic module represents the process extracting of demographic information and user information feature. 3) Green box: final concatenation of two modules recommends hashtags to users using overall features.
 
-
-<center><img src=https://user-images.githubusercontent.com/96400041/161210421-2ea52f17-3702-4851-98d6-8b3b11fabeb7.png width=45%></center>
-
+<p align="center">
+<img src=https://user-images.githubusercontent.com/96400041/161210421-2ea52f17-3702-4851-98d6-8b3b11fabeb7.png width=45%>
+</p>
   
 Our experiment sequences are as follows:
 
