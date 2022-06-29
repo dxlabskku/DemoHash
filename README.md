@@ -16,7 +16,7 @@ tensorFlow==2.4.1
 Keras==2.4.3
 ```
 
-Our experiment sequences are as follows:
+### Experiment
 
 1. Extracting demographic information(age, gender, race and emotion)
 : To extract demographic information from user's selfie images, we use DeepFace library, which is a face recognition and facial attribute analysis framework.
@@ -42,6 +42,9 @@ Below figures show examples of recommended hashtag results by DemoHash model.
 
 
 ### Reference
+
+
+
 
 
 
