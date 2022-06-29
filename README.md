@@ -1,6 +1,6 @@
 # DemoHash: Hashtag Recommendation based on User Demographic Information
 
-We present the demographic hashtag recommendation DemoHash model to utilize users' demographic information extracted from their selfie images, in addition to textual and visual information. We also propose demographic module to reflect weights betwween co-feature of contents and demographic information.
+We present the demographic hashtag recommendation DemoHash model to utilize users' demographic information extracted from their selfie images, in addition to textual and visual information. We also propose demographic module to reflect weights betwween co-feature of contents and demographic information. We extended our model based on the [Implementation and dataset of AAAI 2019 paper: Hashtag Recommendation for Photo Sharing Services](https://github.com/SoftWiser-group/MaCon). 
 
 The below figure is the overview of DemoHash; 1) Blue box: post module represents the process of extracting post feature from images and text. 2) Orange box: demographic module represents the process extracting of demographic information and user information feature. 3) Green box: final concatenation of two modules recommends hashtags to users using overall features.
 
@@ -28,8 +28,15 @@ Model/DemoHash.ipynb
 
 The experimental results obtained with a dataset from Instagram show that our proposed model achieves a greater performance with F1-score, Precision, and Recall than the existing hashtag recommendation methods by average of 3.7%, 13.0%, and 11.0%, respectively. Our approach effectively combined the content-based as well as user-oriented modeling for personalized hashtag recommendation.
 
-Below figures show good and bad examples of recommended hashtag result by DemoHash model.
+Below figures show examples of recommended hashtag results by DemoHash model.
 
-- Good Examples
+- Examples
 
 <img src=https://user-images.githubusercontent.com/96400041/161210869-ea18cbff-a752-40ff-9825-cb37c789929e.png width=45%> <img src=https://user-images.githubusercontent.com/96400041/161210941-4233c446-aa64-4b02-8622-18d05c175d7f.png width=45%>
+
+### Reference
+
+
+
+
+
