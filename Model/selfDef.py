@@ -1,13 +1,10 @@
 """
-Our post module is based on the co-attention of Macon.
-some DIY components used in MaCon
-    Attention -- DIY attention layer. Typical attention definition.
-    coAttention_para: DIY parallel co-attention layer.
-    myLossFunc -- DIY loss function.
-    tagOffSet -- Used to pre-process tag sequence of historical posts.
-    zero_padding -- Used to pre-process tag or text sequence: when len<max_length, fill zeros after the sequence;
-                                                              when len>=max_length, reserve the subsequence of max_length
+We adopted Macon selfDef.py script to build our model. 
+Details are attached in the link below. 
+
+https://github.com/SoftWiser-group/MaCon
 """
+
 import keras.backend as K
 from keras.engine.topology import Layer, InputSpec
 from keras.utils import conv_utils
