@@ -1,4 +1,5 @@
 """
+Our post module is based on the co-attention of Macon.
 some DIY components used in MaCon
     Attention -- DIY attention layer. Typical attention definition.
     coAttention_para: DIY parallel co-attention layer.
